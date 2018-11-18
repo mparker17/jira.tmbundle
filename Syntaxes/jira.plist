@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>jira</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~j</string>
+	<key>name</key>
+	<string>JIRA</string>
+
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>#lists</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#separator</string>
+		</dict>
+	</array>
+
+	<key>repository</key>
+	<dict>
+		<key>lists</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>^(\*|-)+?</string>
+					<key>end</key>
+					<string>$\n?</string>
+					<key>name</key>
+					<string>markup.list.unordered.jira</string>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>^(#)</string>
+					<key>end</key>
+					<string>$\n?</string>
+					<key>name</key>
+					<string>markup.list.ordered.jira</string>
+				</dict>
+			</array>
+		</dict>
+    <key>separator</key>
+    <dict>
+      <key>patterns</key>
+      <array>
+        <dict>
+          <key>matches</key>
+          <string>^----$</string>
+          <key>name</key>
+          <string>meta.separator.jira</string>
+        </dict>
+      </array>
+    </dict>
+	</dict>
+
+	<key>scopeName</key>
+	<string>source.jira</string>
+	<key>uuid</key>
+	<string>7C6EF22C-7AED-4887-B9C6-48A1651E0244</string>
+</dict>
+</plist>

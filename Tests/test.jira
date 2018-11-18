@@ -1,0 +1,134 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec *strong* ut _emphasis_ risus ??citation?? dapibus, -strikethrough- rutrum +inserted+ lectus ^superscript^ iaculis, ~subscript~ rhoncus {{monospaced}} dolor.
+
+bq. Some block quoted text Nunc at varius tortor. In pharetra magna quis enim congue laoreet.
+
+{quote}
+Vivamus efficitur a diam eu volutpat. Proin vel feugiat libero. Proin ultricies eu ante sed congue. Etiam ut mauris sed tellus bibendum ultricies.
+{quote}
+
+{color:red}
+Fusce vulputate consequat mi, quis luctus est feugiat quis.
+{color}
+
+h1. Biggest heading
+
+Cras dolor purus, lacinia ac neque interdum, lacinia pharetra velit.
+
+h2. Bigger heading
+
+Praesent vehicula ac nibh vel hendrerit.
+
+h3. Big heading
+
+Ut sit amet arcu eu nibh scelerisque convallis.
+
+h4. Normal heading
+
+Sed gravida egestas enim, venenatis elementum nulla dictum et.
+
+h5. Small heading
+
+Integer pharetra, lectus sit amet tristique dignissim, libero nunc pulvinar purus, sit amet efficitur tortor orci at mi.
+
+h6. Smallest heading
+
+Vivamus non ornare erat.
+
+Donec ullamcorper linebreak-before \\ line-break-after enim sollicitudin elit posuere efficitur.
+
+----
+
+Fusce em-dash --- lacinia en-dash -- sem placerat facilisis semper.
+
+[#anchor] Praesent [^attachment.ext] tempus, [http://jira.atlassian.com] erat [Atlassian|http://atlassian.com] eget [mailto:legendaryservice@atlassian.com] pulvinar [file:///c:/temp/foo.txt] posuere [file:///z:/file/on/network/share.txt], leo {anchor:anchorname} purus [~username] dictum [pagetitle] lectus [spacekey:pagetitle], eu consectetur sem neque vitae augue.
+
+* some
+* bullet
+** indented
+** bullets
+* points
+
+Nunc lorem turpis, rhoncus nec nunc eu, condimentum vestibulum lacus.
+
+- different
+- bullet
+- types
+
+Fusce vitae placerat mi. Ut eget turpis turpis.
+
+# a
+# numbered
+
+# list
+
+Maecenas a porttitor mi, quis interdum tortor.
+
+# a
+# numbered
+#* with
+#* nested
+#* bullet
+# list
+
+Nulla facilisi.
+
+* a
+* bulleted
+*# with
+*# nested
+*# numbered
+* list
+
+Cras !http://www.host.com/image.gif! feugiat !attached-image.gif!, magna !image.jpg|thumbnail! nec !image.gif|align=right, vspace=4! blandit !quicktime.mov! mattis, !spaceKey:pageTitle^attachment.mov! tellus !quicktime.mov|width=300,height=400! enim !media.wmv|id=media! facilisis mi, a ultrices nisi leo a dolor.
+
+||heading 1||heading 2||heading 3||
+|col A1|col A2|col A3|
+|col B1|col B2|col B3|
+
+Cras eros tortor, eleifend eu ipsum at, pharetra pharetra ligula.
+
+{noformat}
+preformatted piece of text
+ so *no* further _formatting_ is done here
+{noformat}
+
+Nulla suscipit sem ligula, sed iaculis lectus feugiat at.
+
+{panel}
+Some text
+{panel}
+
+Cras malesuada elit arcu, ut egestas lacus rutrum vel.
+
+{panel:title=My Title}
+Some text with a title
+{panel}
+
+Pellentesque ante felis, faucibus in volutpat id, volutpat ut est.
+
+{panel:title=My Title|borderStyle=dashed|borderColor=#ccc|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
+a block of text surrounded with a *panel*
+yet _another_ line
+{panel}
+
+Donec dignissim condimentum nisl ut rutrum.
+
+{code:title=Bar.java|borderStyle=solid}
+// Some comments here
+public String getFoo()
+{
+    return foo;
+}
+{code}
+
+Vestibulum molestie eros ac purus convallis, at lacinia enim ultricies.
+
+{code:xml}
+    <test>
+        <another tag="attribute"/>
+    </test>
+{code}
+
+Ut tempor viverra pretium.
+
+Graphical emoticons test pellentesque \X consectetur :) est :( ac :P sollicitudin :D malesuada. ;) Etiam (y)   aliquet (n) magna, (i) ut (/) consectetur (x) est (!) bibendum (+) quis. (-) Cras (?) quis (on) leo (off) ut (*) tellus (*r) efficitur (*g) porttitor (*b) non (*y) in (flag) eros. Mauris (flagoff) in neque luctus, auctor purus et, sodales tortor.

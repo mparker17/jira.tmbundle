@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>zcnexre17@hfref.abercyl.tvguho.pbz</string>
+	<key>contactName</key>
+	<string>M Parker</string>
+	<key>description</key>
+	<string>Syntax highlighting for the JIRA syntax.</string>
+	<key>name</key>
+	<string>jira</string>
+	<key>uuid</key>
+	<string>C739EE73-831E-4276-942A-D16C6CE3A9C0</string>
+</dict>
+</plist>
